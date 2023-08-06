@@ -21,7 +21,6 @@ Results when using real-time emotion classification model:
 $ git clone https://github.com/KhoiNghiem/Emotion-Classification.git
 $ cd Emotion-Classification
 $ pip install -r requirements.txt
-
 ```
 
 ## Dataset
@@ -50,3 +49,8 @@ haarcascade_frontalface_default.xml
 Run `python3 main.py` file to perform real-time emotion classification
 
 Note: For each transfer learning model with input to 244x244
+
+## Reference
+* Kaggle dataset: https://www.kaggle.com/datasets/msambare/fer2013
+* ResNet50 V2: https://keras.io/api/applications/resnet/
+* Vgg 16: https://keras.io/api/applications/vgg/
