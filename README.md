@@ -12,6 +12,9 @@ A project to classify human emotions in real time with 7 types of emotions:
 * Disgust 🤢
 
 ## Example Result
+Results when using real-time emotion classification model:
+
+<img src="Images/image2.jpg" alt="..." width="500" align="center"  /> 
 
 ## Installation
 ```
@@ -26,7 +29,7 @@ FER2013 consists of 28,709/7,178 train/test 48x48 pixel grayscale images of face
 Thanks to its resolution this is a good trade-off between accuracy and model complexity allowing to iterate quickly many times. You need to download the dataset from [Kaggle](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data)
 
 
-<img src="images/fer2013_sample.png" align="center" /> 
+<img src="Images/image.png" align="center" /> 
 
 
 ## Usage
