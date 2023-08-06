@@ -12,13 +12,15 @@ A project to classify human emotions in real time with 7 types of emotions:
 * Disgust 🤢
 
 ## Example Result
+Results when using real-time emotion classification model:
+
+<img src="Images/image2.jpg" alt="..." width="500" align="center"  /> 
 
 ## Installation
 ```
 $ git clone https://github.com/KhoiNghiem/Emotion-Classification.git
 $ cd Emotion-Classification
 $ pip install -r requirements.txt
-
 ```
 
 ## Dataset
@@ -26,7 +28,7 @@ FER2013 consists of 28,709/7,178 train/test 48x48 pixel grayscale images of face
 Thanks to its resolution this is a good trade-off between accuracy and model complexity allowing to iterate quickly many times. You need to download the dataset from [Kaggle](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data)
 
 
-<img src="images/fer2013_sample.png" align="center" /> 
+<img src="Images/image.png" align="center" /> 
 
 
 ## Usage
@@ -47,3 +49,8 @@ haarcascade_frontalface_default.xml
 Run `python3 main.py` file to perform real-time emotion classification
 
 Note: For each transfer learning model with input to 244x244
+
+## Reference
+* Kaggle dataset: https://www.kaggle.com/datasets/msambare/fer2013
+* ResNet50 V2: https://keras.io/api/applications/resnet/
+* Vgg 16: https://keras.io/api/applications/vgg/
